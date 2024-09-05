@@ -2,10 +2,6 @@
     color: hsl(217, 45%, 22%);
     font-family: 'Outfit'; 
     font-weight: 700;
-
-    /* No usar pixeles para el tamaño de la fuente, en su lugar 'em' y porcentajes*/
-    /* pixels/16=em, y body css = font-size: 100%; -> soporte en otros navegadores */
-    /* 22/16 */
     font-size: 1.375em; 
   }
 
@@ -16,10 +12,7 @@
     font: 0.9375em ;
   }
 
-  body {
-    font-size: 100%;
-
-    /* Centrar todo */
+  main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +25,6 @@
     border-radius: 5%;
     background-color: white;
 
-    /* Centrar todo */
     display: flex;
     flex-direction: column;
     justify-content: center;
