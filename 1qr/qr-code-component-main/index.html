@@ -8,72 +8,12 @@
   <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'> <!--Añadimos la fuente del diseño-->
 
   <title>Frontend Mentor | QR code component</title>
+  <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    
-    .text-preset-1{
-      color: hsl(217, 45%, 22%);
-      font-family: 'Outfit'; 
-      font-weight: 700;
-
-      /* No usar pixeles para el tamaño de la fuente, en su lugar 'em' y porcentajes*/
-      /* pixels/16=em, y body css = font-size: 100%; -> soporte en otros navegadores */
-      /* 22/16 */
-      font-size: 1.375em; 
-    }
-
-    .text-preset-2{
-      color: hsl(216, 15%, 48%);
-      font-family: "Outfit";
-      font-weight: 400;
-      font: 0.9375em ;
-    }
-
-    body {
-      font-size: 100%;
-
-      /* Centrar todo */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      min-height: 97vh;
-    }
-
-    
-    .qr_card {
-      border-radius: 5%;
-      background-color: white;
-
-      /* Centrar todo */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      max-width: 280px;
-    }
-
-    .qr_card img {
-        border-radius: 5%;
-        margin: 3% 3% 0% 3% ;
-        max-width: 100%;
-      }
-
-    body{
-      background-color: #D5E1EF;
-    }
-
-    .higher_bottom_margin{
-      margin-bottom: 7%;
-    }
-
-    .fewer_top_margin{
-      margin-top: -2%;
-    }
-
   </style>
 </head>
 <body>
