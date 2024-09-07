@@ -39,6 +39,7 @@
 
   body{
     background-color: #D5E1EF;
+    
   }
 
   .higher_bottom_margin{
@@ -47,4 +48,8 @@
 
   .fewer_top_margin{
     margin-top: -2%;
+  }
+
+  html{
+    scrollbar-width: none; 
   }
