@@ -76,7 +76,7 @@ p{
 
 .blog_card h3{
   font-size: 1.4em;
-  color: var(--Yellow);
+  color: var(--Gray_950);
 }
 
 .blog_card_info img{
@@ -102,6 +102,7 @@ p{
 }
 
 .blog_card:hover h3{
+  color: var(--Yellow);
   text-shadow: 1px 1px 1px rgb(0,0,0);
 }
 
