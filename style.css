@@ -1,15 +1,16 @@
 :root{
-    --bgcolor: #faf5f5;
+    --bgcolor: hsl(0, 0%, 13%);
     /* calc text color in function of bg */
-    --txtcolor: #000;
+    --txtcolor: white;
     --ahover: rgb(98, 89, 89);
     --avisited: rgb(80, 147, 162);
+    --border_color: #5b5b5b;
 
 }
 
 html{
     background-color: var(--bgcolor);
-    /* color: var(black); */
+    color: var(--txtcolor);
 }
 
 a:link{
@@ -31,7 +32,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--border_color);
     gap: 2em;
 }	
 
@@ -53,11 +54,12 @@ body{
 
 aside{
     width: 15%;
+    min-width: 150px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-right: 1px solid #000;
+    border-right: 1px solid var(--border_color);
 }
 
 main{
@@ -66,8 +68,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-left: 1px solid #000; */
-
 }
 
 iframe {
