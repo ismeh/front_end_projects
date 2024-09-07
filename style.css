@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+
+    border-bottom: 1px solid #000;
+}	
+
+aside{
+    width: 15%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
+}
+
+main{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+
+ul{
+    margin: 10px;
+    width: 80%;
+    overflow-y: auto;
+}
+
+.mid_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
