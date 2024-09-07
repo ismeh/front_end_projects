@@ -1,8 +1,28 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+:root{
+    --bgcolor: #faf5f5;
+    /* calc text color in function of bg */
+    --txtcolor: #000;
+    --ahover: rgb(98, 89, 89);
+    --avisited: rgb(80, 147, 162);
+
+}
+
+html{
+    background-color: var(--bgcolor);
+    /* color: var(black); */
+}
+
+a:link{
+    color: var(--txtcolor);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--avisited);
+}
+
+a:hover{
+    color: var(--ahover);
 }
 
 nav{
@@ -11,18 +31,32 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0;
-
     border-bottom: 1px solid #000;
 }	
 
+nav a:visited{
+    color: var(--txtcolor)
+}
+
+nav a:hover{
+    color: var(--ahover);
+    text-decoration: underline;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
 aside{
     width: 15%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: initial;
     align-items: center;
+    border-right: 1px solid #000;
 }
 
 main{
@@ -31,6 +65,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border-left: 1px solid #000; */
+
 }
 
 iframe {
@@ -43,10 +79,20 @@ ul{
     margin: 10px;
     width: 80%;
     overflow-y: auto;
+    /* change dot */
+    list-style-type: decimal-leading-zero;
 }
 
 .mid_page{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.projects_list{
+    width: 100%;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
