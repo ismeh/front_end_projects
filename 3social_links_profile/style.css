@@ -1,0 +1,81 @@
+:root{
+    --bg_color: hsl(0, 0%, 8%);
+    --card_color: hsl(0, 0%, 12%);
+    --btn_color: hsl(0, 0%, 20%);
+    --btn_hover_color: hsl(0, 0%, 18%);
+    --green: hsl(82, 100%, 75%);
+    --grey: hsl(0, 0%, 67%);
+
+    font-family: Inter;
+    font-size: 14px;
+}
+
+body{
+    background-color: var(--bg_color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card_color);
+    border-radius: 5%;
+    padding: 5%;
+    gap: 1em;
+    margin: 5%;
+}
+
+.links_card img{
+    border-radius: 100%;
+    max-width: 33%;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    min-width: 90%;
+    gap: 1em;
+    margin: 1em;
+}
+
+a{
+    text-decoration: none;
+    background: var(--btn_color);
+    border-radius: 5%;
+    text-align: center;
+    padding: 0.9em;
+    max-width: 100%;
+    min-width: 100%;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+    scale: 1.03;
+    background: var(--btn_hover_color);
+}
+
+
+#name_text{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#origin_text{
+    color: var(--green);
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+#job_text{
+    color: var(--grey);
+    font-size: 1em;
+}

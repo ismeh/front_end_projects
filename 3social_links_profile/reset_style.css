@@ -1,0 +1,25 @@
+/* https://x.com/midudev/status/1747273890290860150 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    min-width: 0;
+    font: inherit;
+  }
+
+body{
+    margin: 0;
+    min-height: 100dvh;
+}
+
+img, video, svg{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-wrap: balance;
+}
